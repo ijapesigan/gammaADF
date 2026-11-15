@@ -1,7 +1,7 @@
 Package: gammaADF
 Title: Asymptotic Distribution-Free Covariance Matrix of the Sample
         Covariance Matrix
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person(given = "Ivan Jacob Agaloos",
            family = "Pesigan",
@@ -24,7 +24,7 @@ Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 Config/roxygen2/version: 8.1.1.9000
 NeedsCompilation: no
-Packaged: 2026-11-15 05:15:24 UTC; root
+Packaged: 2026-11-15 23:21:16 UTC; root
 Author: Ivan Jacob Agaloos Pesigan [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-4818-8420>)
 Maintainer: Ivan Jacob Agaloos Pesigan <r.jeksterslab@gmail.com>
