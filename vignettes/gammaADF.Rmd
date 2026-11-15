@@ -1,0 +1,88 @@
+---
+title: "gammaADF: Asymptotic Distribution-Free Covariance Matrix of the Sample Covariance Matrix"
+author: "Ivan Jacob Agaloos Pesigan"
+output: rmarkdown::html_vignette
+bibliography: "vignettes.bib"
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+nocite: |
+  @RCoreTeam-2026
+vignette: >
+  %\VignetteIndexEntry{gammaADF: Asymptotic Distribution-Free Covariance Matrix of the Sample Covariance Matrix}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r}
+#| include = FALSE
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Description
+
+Asymptotic covariance matrix of the half-vectorization
+of the sample covariance matrix in R [@RCoreTeam-2026]
+without a distributional assumption
+(asymptotic distribution free):
+the consistent estimator and its unbiased version.
+The functions are internal; other projects can copy them.
+
+## Installation
+
+You can install the development version of `gammaADF` from
+[GitHub](https://github.com/ijapesigan/gammaADF) with:
+
+```r
+if (!require("pak")) install.packages("pak")
+pak::pkg_install("ijapesigan/gammaADF")
+```
+
+## Example
+
+The functions are internal:
+call them with `gammaADF:::`
+or copy them into your project.
+
+```{r}
+set.seed(seed = 42)
+x <- matrix(data = stats::rnorm(n = 60), nrow = 20)
+n <- nrow(x = x)
+d <- scale(x = x, center = TRUE, scale = FALSE)
+sigma <- crossprod(x = d) / n
+vechsigma <- sigma[lower.tri(x = sigma, diag = TRUE)]
+```
+
+The consistent estimate.
+
+```{r}
+gamma_consistent <- gammaADF:::.GammaADFConsistent(
+  d = d,
+  vechsigmacap_consistent = vechsigma,
+  n = n
+)
+dim(x = gamma_consistent)
+```
+
+The unbiased estimate needs the normal-theory matrix
+(see `gammaN`);
+the identity stands in for it here.
+
+```{r}
+gamma_unbiased <- gammaADF:::.GammaADFUnbiased(
+  gammacapadf_consistent = gamma_consistent,
+  gammacapmvn_consistent = diag(x = nrow(x = gamma_consistent)),
+  vechsigmacap_consistent = vechsigma,
+  n = n
+)
+dim(x = gamma_unbiased)
+```
+
+## Documentation
+
+See
+[GitHub Pages](https://ijapesigan.github.io/gammaADF)
+for package documentation.
+
+## References
