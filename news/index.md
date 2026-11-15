@@ -1,5 +1,17 @@
 # Changelog
 
+## gammaADF 0.0.2
+
+### Efficiency
+
+- `.GammaADFConsistent()` builds the `vech(d_i d_i')` rows for all
+  observations at once and uses
+  [`crossprod()`](https://rdrr.io/r/base/crossprod.html), instead of
+  [`Reduce()`](https://rdrr.io/r/base/funprog.html) over
+  [`lapply()`](https://rdrr.io/r/base/lapply.html) of `n` outer
+  products: 250 times faster at n = 5000, k = 9 (0.505 s to 0.002 s);
+  differences below 1e-13.
+
 ## gammaADF 0.0.1
 
 ### Initial release

@@ -12,11 +12,11 @@ Source:
 
 Pesigan, I. J. A. (2026). gammaADF: Asymptotic Distribution-Free
 Covariance Matrix of the Sample Covariance Matrix. R package version
-0.0.1. https://github.com/ijapesigan/gammaADF
+0.0.2. https://github.com/ijapesigan/gammaADF
 
 @Manual{,\
   author = {Ivan Jacob Agaloos Pesigan},\
   title = {gammaADF: Asymptotic Distribution-Free Covariance Matrix of the Sample Covariance Matrix},\
   year = {2026},\
-  note = {R package version 0.0.1},\
+  note = {R package version 0.0.2},\
 }

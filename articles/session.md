@@ -33,7 +33,7 @@
 `#> `\
 `#> loaded via a namespace (and not attached):`\
 `#>  [1] compiler_4.6.2  cli_3.6.6.9000  tools_4.6.2     pillar_1.11.1  `\
-`#>  [5] otel_0.3.0      glue_1.8.1      rProject_0.0.71 vctrs_0.7.3    `\
+`#>  [5] otel_0.3.0      glue_1.8.1      rProject_0.0.73 vctrs_0.7.3    `\
 `#>  [9] knitr_1.52      xfun_0.62       lifecycle_1.0.5 rlang_1.3.0    `\
 `#> [13] evaluate_1.0.5`
 
@@ -42,8 +42,8 @@
 \
 `utils``::`[`installed.packages`](https://rdrr.io/r/utils/installed.packages.html)`(``)``[``, `[`c`](https://rdrr.io/r/base/c.html)`(``"Package"``, ``"Version"``)``]`\
 `#>                   Package             Version     `\
-`#> gammaADF          "gammaADF"          "0.0.1"     `\
-`#> rProject          "rProject"          "0.0.71"    `\
+`#> gammaADF          "gammaADF"          "0.0.2"     `\
+`#> rProject          "rProject"          "0.0.73"    `\
 `#> abind             "abind"             "1.4-8"     `\
 `#> Amelia            "Amelia"            "1.8.3"     `\
 `#> arm               "arm"               "1.15-3"    `\
@@ -157,7 +157,7 @@
 `#> GauPro            "GauPro"            "0.2.17"    `\
 `#> generics          "generics"          "0.1.4"     `\
 `#> gert              "gert"              "2.5.0"     `\
-`#> ggplot2           "ggplot2"           "4.0.3"     `\
+`#> ggplot2           "ggplot2"           "4.0.4"     `\
 `#> ggrepel           "ggrepel"           "0.9.8"     `\
 `#> gh                "gh"                "1.6.1"     `\
 `#> gifski            "gifski"            "1.32.0-2"  `\
@@ -342,7 +342,7 @@
 `#> roxygen2          "roxygen2"          "8.1.1.9000"`\
 `#> rpf               "rpf"               "1.0.15"    `\
 `#> RPostgres         "RPostgres"         "1.4.10"    `\
-`#> rProject          "rProject"          "0.0.71"    `\
+`#> rProject          "rProject"          "0.0.73"    `\
 `#> rprojroot         "rprojroot"         "2.1.1"     `\
 `#> rsample           "rsample"           "1.3.2"     `\
 `#> RSQLite           "RSQLite"           "3.53.3"    `\
@@ -467,7 +467,7 @@
     #> Core(s) per socket:                   32
     #> Socket(s):                            2
     #> Stepping:                             8
-    #> CPU(s) scaling MHz:                   87%
+    #> CPU(s) scaling MHz:                   79%
     #> CPU max MHz:                          3400.0000
     #> CPU min MHz:                          800.0000
     #> BogoMIPS:                             4200.00
@@ -504,6 +504,6 @@
 ## Memory
 
     #>                total        used        free      shared  buff/cache   available
-    #> Mem:           251Gi        46Gi        29Gi       6.2Gi       183Gi       205Gi
+    #> Mem:           251Gi        66Gi       106Gi       5.2Gi        85Gi       184Gi
     #> Swap:             0B          0B          0B
-    #> Total:         251Gi        46Gi        29Gi
+    #> Total:         251Gi        66Gi       106Gi
