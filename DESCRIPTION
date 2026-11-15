@@ -1,6 +1,6 @@
 Package: gammaADF
 Title: Asymptotic Distribution-Free Covariance Matrix of the Sample Covariance Matrix
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person(given = "Ivan Jacob Agaloos",
            family = "Pesigan",
