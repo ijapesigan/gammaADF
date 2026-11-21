@@ -9,7 +9,7 @@ type: software
 license: MIT
 title: 'gammaADF: Asymptotic Distribution-Free Covariance Matrix of the Sample Covariance
   Matrix'
-version: 0.0.2
+version: 0.0.3
 abstract: 'Asymptotic covariance matrix of the half-vectorization of the sample covariance
   matrix without a distributional assumption (asymptotic distribution free): the consistent
   estimator and its unbiased version. The functions are internal; other projects copy
@@ -29,7 +29,7 @@ preferred-citation:
     email: r.jeksterslab@gmail.com
     orcid: https://orcid.org/0000-0003-4818-8420
   year: '2026'
-  notes: R package version 0.0.2
+  notes: R package version 0.0.3
 repository-code: https://github.com/ijapesigan/gammaADF
 url: https://ijapesigan.github.io/gammaADF/
 contact:
