@@ -1,3 +1,9 @@
+# gammaADF 0.0.3
+
+## Other changes
+
+- The linearAlgebra copy refreshed from linearAlgebra 0.0.5 (`.Vech()`: named example; same code).
+
 # gammaADF 0.0.2
 
 ## Efficiency
