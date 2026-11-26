@@ -8,5 +8,5 @@
 
 ### Session Information
 
-- [linearAlgebra:
+- [gammaADF:
   Session](https://ijapesigan.github.io/gammaADF/articles/session.md):

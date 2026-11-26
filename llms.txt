@@ -1,6 +1,6 @@
 # gammaADF
 
-Ivan Jacob Agaloos Pesigan
+Ivan Jacob Agaloos Pesigan 2026-11-26 21:01:01
 
 ## Description
 
@@ -42,5 +42,5 @@ computing*. R Foundation for Statistical Computing.
 
 ### Session Information
 
-- [linearAlgebra:
+- [gammaADF:
   Session](https://ijapesigan.github.io/gammaADF/articles/session.md):
